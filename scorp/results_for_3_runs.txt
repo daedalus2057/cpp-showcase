@@ -1,0 +1,151 @@
+
+Beginning game with board:
+Reserve: __ > __ > __ > X
+
+0: __ > __ > __ > 7H > 10H > AC > 3D > X
+1: __ > __ > __ > 7C > 7S > 3S > 4S > X
+2: __ > __ > __ > QD > 9C > KH > 7D > X
+3: 8S > AS > KC > 2H > 5H > 4D > 2C > X
+4: 6S > 9D > 10C > QC > 2S > 6C > 9S > X
+5: 6D > 5S > 9H > AH > QH > 6H > AD > X
+6: JH > 8C > 5D > JS > JD > 10S > 5C > X
+
+Moves:
+8S moved to column 4
+KH moved to column 3
+6D moved to column 3
+KC moved to column 5
+8C moved to column 2
+10H moved to column 6
+6H moved to column 0
+JH moved to column 3
+AC moved to column 5
+7D moved to column 2
+QH moved to column 3
+9H moved to column 3
+4S moved to column 2
+2S moved to column 1
+JC moved to column 4
+3S moved to column 2
+6S moved to column 1
+
+No more moves to make
+
+Ended with board:
+
+0: __ > __ > __ > 7H > 6H > AD > 8H > X
+1: __ > __ > __ > 7C > 7S > 6S > 9D > 10C > QC > JC > X
+2: __ > __ > __ > QD > 9C > 8C > 5D > JS > JD > 10S > 5C > 8D > 7D > 6D > 5S > 4S > 3S > 2S > 6C > 9S > 8S > AS > X
+3: KH > QH > JH > 10H > 9H > AH > X
+4: X
+5: KC > 2H > 5H > 4D > 2C > AC > 3D > X
+6: X
+Beginning game with board:
+Reserve: __ > __ > __ > X
+
+0: __ > __ > __ > 4H > KS > 6S > AD > X
+1: __ > __ > __ > AC > KH > 10C > JC > X
+2: __ > __ > __ > 9S > 6H > 7D > 4D > X
+3: 8S > 2H > 9C > 3H > 6D > 10H > 6C > X
+4: 8D > 10D > 3C > QC > 10S > QD > 4S > X
+5: AH > KD > 9H > 8C > 7C > JH > JD > X
+6: KC > 5S > 2S > 5C > 5H > JS > 3S > X
+
+Moves:
+3S moved to column 4
+10S moved to column 6
+10D moved to column 5
+7D moved to column 4
+5H moved to column 2
+2S moved to column 2
+4S moved to column 6
+JD moved to column 2
+10H moved to column 5
+JC moved to column 2
+10C moved to column 2
+9C moved to column 2
+AH moved to column 3
+KH moved to column 5
+5C moved to column 3
+3D moved to column 4
+
+No more moves to make
+
+Ended with board:
+
+0: __ > __ > __ > 4H > KS > 6S > AD > 7S > X
+1: __ > __ > __ > AC > 8H > X
+2: __ > __ > __ > 9S > 6H > 5H > JS > 10S > QD > JD > 10D > 3C > QC > JC > 10C > 9C > 3H > 6D > X
+3: 8S > 2H > AH > KD > 9H > 8C > 7C > JH > 10H > 6C > 5C > X
+4: 8D > 7D > 4D > 3D > X
+5: KH > X
+6: KC > 5S > 4S > 3S > 2S > X
+Beginning game with board:
+Reserve: __ > __ > __ > X
+
+0: __ > __ > __ > 10H > 8S > 4S > 3C > X
+1: __ > __ > __ > AS > 4D > KS > JC > X
+2: __ > __ > __ > 8H > 5H > KC > 8C > X
+3: 6H > 9C > 3H > QD > 9H > KD > 8D > X
+4: 7H > QC > 2D > AD > JS > 3S > JH > X
+5: 2C > QS > AH > JD > 5C > 4H > 2H > X
+6: 9S > 2S > 6C > 9D > AC > QH > KH > X
+
+Moves:
+10H moved to column 4
+7C moved to column 2
+7D moved to column 3
+6C moved to column 2
+AS moved to column 6
+9D moved to column 1
+5C moved to column 2
+AH moved to column 2
+JS moved to column 5
+10D moved to column 2
+9S moved to column 1
+KH moved to column 6
+QH moved to column 6
+JH moved to column 6
+2S moved to column 5
+8S moved to column 1
+9H moved to column 6
+JD moved to column 3
+3C moved to column 0
+3S moved to column 1
+10S moved to column 5
+2D moved to column 1
+JC moved to column 4
+2C moved to column 0
+KD moved to column 5
+8H moved to column 6
+6D moved to column 5
+5D moved to column 5
+4D moved to column 5
+QS moved to column 5
+10C moved to column 4
+9C moved to column 4
+5H moved to column 3
+7H moved to column 6
+KC moved to column 4
+4H moved to column 3
+4C moved to column 4
+AC moved to column 4
+8D moved to column 6
+QD moved to column 5
+2H moved to column 6
+3H moved to column 3
+8C moved to column 6
+QC moved to column 4
+6H moved to column 6
+
+No more moves to make
+
+Ended with board:
+
+0: X
+1: 3D > 2D > AD > X
+2: __ > __ > 7S > X
+3: X
+4: KC > QC > JC > 10C > 9C > 8C > 7C > 6C > 5C > 4C > 3C > 2C > AC > X
+5: KD > QD > JD > 10D > 9D > 8D > 7D > 6D > 5D > 4D > KS > QS > JS > 10S > 9S > 8S > 4S > 3S > 2S > AS > X
+6: KH > QH > JH > 10H > 9H > 8H > 7H > 6H > 5H > 4H > 3H > 2H > AH > X
