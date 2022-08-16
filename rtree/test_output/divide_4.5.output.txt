@@ -1,0 +1,31 @@
+[TRACE] Raw Args: [./rtree] [-a] [3] [-b] [4/1] [-c] [1/1] [-d] [2/1] [-v] [-t] 
+[TRACE] Parsed args:  -a 3 -b 4 -c 1 -d 2-v (divide) 
+
+
+Generating First 4 levels of recursion tree: 
+*************************
+T(n) = 3T(n/4) + (1)n^(2)
+(TRACE) Entered expand_tree with params:  div: 1 poly: 1 a: 3 b: 1/4 c: 1 d: 2 e: 0  max_depth: 3
+(TRACE) Expanding level 0 with work_size 1 and node_cost 1
+(TRACE) Expanding level 1 with work_size 1/4 and node_cost 1/16
+(TRACE) Expanding level 2 with work_size 1/16 and node_cost 1/256
+(TRACE) Expanding level 3 with work_size 1/64 and node_cost 1/4096
+*************************
+At Depth: 0, # Nodes: 1
+Expanded Node Form: [ 1n | 1(1n)^2 ]
+Total work: 1n^2
+*************************
+At Depth: 1, # Nodes: 3
+Expanded Node Form: [ n/4 | 1(n/4)^2 ]
+Total work: (3/16)n^2
+*************************
+At Depth: 2, # Nodes: 9
+Expanded Node Form: [ n/16 | 1(n/16)^2 ]
+Total work: (9/256)n^2
+*************************
+At Depth: 3, # Nodes: 27
+Expanded Node Form: [ n/64 | 1(n/64)^2 ]
+Total work: (27/4096)n^2
+*************************
+
+

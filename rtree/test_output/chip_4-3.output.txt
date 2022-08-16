@@ -1,0 +1,31 @@
+[TRACE] Raw Args: [./rtree] [-a] [2] [-B] [1] [-d] [1/1] [-e] [2/1] [-c] [1/1] [-p] [-t] 
+[TRACE] Parsed args:  -a 2 -B 1 -d 1 -e 2 -c 1-p (chip) 
+
+
+Generating First 4 levels of recursion tree: 
+*************************
+T(n) = 2T(n - 1) + (1 * log_base(2)^1(n - 1))
+(TRACE) Entered expand_tree with params:  div: 0 poly: 0 a: 2 b: 1 c: 1 d: 1 e: 2  max_depth: 3
+(TRACE) Expanding level 0 with work_size 0 and node_cost 0
+(TRACE) Expanding level 1 with work_size 1 and node_cost 1
+(TRACE) Expanding level 2 with work_size 2 and node_cost 2
+(TRACE) Expanding level 3 with work_size 3 and node_cost 3
+*************************
+At Depth: 0, # Nodes: 1
+Expanded Node Form: [ T(n - 0) | 1log_2^1(n - 0) ]
+Total work: 1 * log_base(2)^1T(n - 0)
+*************************
+At Depth: 1, # Nodes: 2
+Expanded Node Form: [ T(n - 1) | 1log_2^1(n - 1) ]
+Total work: 2 * log_base(2)^1T(n - 1)
+*************************
+At Depth: 2, # Nodes: 4
+Expanded Node Form: [ T(n - 2) | 1log_2^1(n - 2) ]
+Total work: 4 * log_base(2)^1T(n - 2)
+*************************
+At Depth: 3, # Nodes: 8
+Expanded Node Form: [ T(n - 3) | 1log_2^1(n - 3) ]
+Total work: 8 * log_base(2)^1T(n - 3)
+*************************
+
+

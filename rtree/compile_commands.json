@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -o CMakeFiles/rtree.dir/main.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/main.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/main.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -o CMakeFiles/rtree_test.dir/rtree_test.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/rtree_test.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/rtree_test.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17 -o CMakeFiles/rtree_test.dir/rational.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/rational.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/rational.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-build/googlemock",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/include -I/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-build/googlemock",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-build/googletest",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -I/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -I/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-build/googletest",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++  -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/include -isystem /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Wchar-subscripts -Winline -Wredundant-decls -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/donovan/git-home/jhed/605.621/PA2/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+}
+]
