@@ -1,12 +1,10 @@
-Welcome to RTree
-----------------
+# Welcome to RTree
 
 The included application is built with CMake. A recent version of cmake and a working c++ compiler
 should be all that is needed to compile, test, and run the application. That said, I have only tested
 this with clang 13.0.1 on MacOS arm64. If you have any issues, please do not hesitate to contact me. 
 
-Compiling
----------
+## Compiling
 
 Use the following three commands to compile and assemble the project:
 
@@ -14,8 +12,7 @@ $ mkdir build && cd build
 $ cmake ..
 $ cmake --build .
 
-Testing
--------
+## Testing
 
 This project includes minimal unit tests written with the GoogleTest framework. To run the tests:
 
@@ -30,8 +27,7 @@ $ ./rtree $(<../test_input/<name_of_file>.arg.txt)
 
 Note there are no quotes around the expansion. 
 
-Running
--------
+## Running
 
 $ cd build
 $ ./rtree -h
@@ -39,10 +35,8 @@ $ ./rtree -h
 **** Please note: This executable includes support for logarithmic non-recussive cost. ****
 **** See the help command for more information. ****
 
-Included Files
---------------
-ReadMe.txt <-- this document
-NYE2_Analysis.pdf <-- analysis text for assignment
+## Included Files
+ReadMe.md <-- this document
 CMakeLists.txt <-- build file
 rational.cc 
 rational.h
